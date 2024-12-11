@@ -1,0 +1,8 @@
+
+
+
+	var shopID = "e384c0aa-20ae-45f1-9713-08da3f379c90";
+	var url = "https://wheelioapp.azureedge.net/app/index.min.js?v=" + new Date().getTime();
+	var wheelio_script = document.createElement("script");	
+	wheelio_script.setAttribute("src", url);	
+	document.body.appendChild(wheelio_script);	
